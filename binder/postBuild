@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Install JupyterLab extension
+
+jupyter labextension install @jupyterlab/hub-extension
+jupyter labextension install @jupyterlab/git
+jupyter serverextension enable --py jupyterlab_git
+
+jupyter labextension install @jupyterlab/plotly-extension
+jupyter labextension install jupyterlab-chart-editor
+jupyter labextension install @jupyterlab/mathjax3-extension
+jupyter labextension install @jupyterlab/latex
+jupyter labextension install @mflevine/jupyterlab_html
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@^0.38.1
+jupyter labextension install jupyter-leaflet

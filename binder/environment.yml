@@ -1,0 +1,40 @@
+name: fastai-environment
+channels:
+  - fastai
+  - pytorch
+  - conda-forge
+  - default
+dependencies:
+  - python >= 3.6
+  - jupyterlab
+  - jupyterhub
+  - nodejs 
+  - jupyterlab-git
+  - nb_conda
+  - pytorch-cpu
+  - fastai
+  - pip:
+    - transitions
+    - ipywidgets
+    - ipyleaflet
+    - nbgitpuller
+    - nbgrader
+    - sklearn
+    - tushare
+    - numpy
+    - pandas
+    - scipy
+    - matplotlib
+    - plotly
+    - tqdm
+    - statsmodels
+    - boto
+    - seaborn
+    - pillow
+    - keras==1.2.2
+    - theano
+    - tensorflow
+    - pandas
+    - scikit-learn
+    - bcolz
+    - sympy
