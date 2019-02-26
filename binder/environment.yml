@@ -16,7 +16,6 @@ dependencies:
   - pip:
     - ipywidgets
     - ipyleaflet
-    - nbgitpuller
     - sklearn
     - tushare
     - numpy
@@ -24,15 +23,9 @@ dependencies:
     - scipy
     - matplotlib
     - plotly
-    - tqdm
     - statsmodels
-    - boto
     - seaborn
     - pillow
-    - keras==1.2.2
+    - keras
     - theano
     - tensorflow
-    - pandas
-    - scikit-learn
-    - bcolz
-    - sympy
